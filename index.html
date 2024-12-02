@@ -57,7 +57,7 @@
           <div class="text-container">
             <h2>Sumatra</h2>
             <p class="synopsis">Sumatra is known for its rugged terrain, wildlife, and tropical rainforests.</p>
-            <a href="#" class="learn-more">Learn More</a>
+            <a href="sumatra.html" class="learn-more">Learn More</a>
           </div>
         </div>
         
@@ -103,58 +103,33 @@
         </div>
       </div>
 
-    <div class="threat-prevention">
+      <div class="threat-prevention">
         <h2>Threat & Prevention</h2>
         <div class="row">
-          <!-- Card 1 -->
+          <!-- Card 1 for Threat -->
           <div>
-            <img src="Deforestasi.png" alt="Deforestasi dan Kerusakan Habitat">
+            <img id="threat-img" src="Deforestasi.png" alt="Deforestasi">
             <div>
-              <h3>Deforestasi dan Kerusakan Habitat</h3>
-              <p>Indonesia's forests are under threat from deforestation and habitat loss, which have severe consequences for the environment and wildlife. We are committed to implementing sustainable forestry practices and protecting our natural heritage.</p>
+              <h3 id="threat-title">Deforestasi</h3>
+              <p id="threat-description">Deforestasi di Pulau Sumatra terjadi akibat perluasan perkebunan kelapa sawit, penebangan hutan untuk pertambangan, dan konversi hutan menjadi lahan pertanian. Menurut laporan Forest Watch Indonesia, sekitar 2,6 juta hektar hutan Indonesia hilang setiap tahunnya. Di Sumatra, hutan yang dulunya luasnya sekitar 58,9 juta hektar pada tahun 1900 kini menyusut drastis menjadi kurang dari 12 juta hektar pada tahun 2020</p>
             </div>
           </div>
-      
-          <!-- Card 2 -->
+          <!-- Card 2 for Prevention -->
           <div>
             <div>
-              <h3>Pencegahan dan Perlindungan</h3>
-              <p>We are actively working to prevent further environmental damage and protect the delicate ecosystems of Indonesia. Through conservation efforts, education, and partnerships, we aim to preserve the beauty and diversity of our islands for generations to come.</p>
+              <h3 id="prevention-title">Penghijauan Hutan</h3>
+              <p id="prevention-description">Penghijauan atau reboisasi dengan menanam pohon-pohon endemik adalah langkah penting dalam mengatasi deforestasi. Reboisasi membantu mengembalikan habitat satwa dan menyerap karbon dioksida, yang dapat membantu mengurangi perubahan iklim.</p>
             </div>
-            <img src="Pencegahan-Deforestasi.png" alt="Pencegahan dan Perlindungan">
+            <img id="prevention-img" src="Pencegahan-Deforestasi.png" alt="Pencegahan dan Perlindungan">
           </div>
         </div>
-      
-        
+    
         <div class="additional-images">
-
-          <img class="active" src="Deforestasi.png" alt="Deforestation" 
-               data-image="Deforestasi.png" 
-               data-title="Deforestasi" 
-               data-description="Pentingnya mengurangi deforestasi untuk melindungi hutan dan satwa liar Indonesia."
-               data-prevention-image="Pencegahan-Deforestasi.png"
-               data-prevention-title="Penghijauan Hutan"
-               data-prevention-description="Memulai program reboisasi untuk melindungi lingkungan dan ekosistem.">
-          
-               <img src="perburuan-liar.png" alt="Wildlife Conservation" 
-               data-image="perburuan-liar.png" 
-               data-title="Perburuan Liar" 
-               data-description="Konservasi satwa liar sangat penting untuk melestarikan keanekaragaman hayati Indonesia."
-               data-prevention-image="konservasi.jpg"
-               data-prevention-title="Upaya Konservasi"
-               data-prevention-description="Melakukan konservasi dengan mendukung perlindungan habitat dan satwa liar.">
-          
-          <img src="Pencemaran.png" alt="Pollution Prevention" 
-               data-image="Pencemaran.png" 
-               data-title="Pencemaran" 
-               data-description="Menjaga kebersihan lingkungan melalui pencegahan pencemaran yang efektif."
-               data-prevention-image="pencegahan-pencemaran.jpg"
-               data-prevention-title="Pencegahan Polusi"
-               data-prevention-description="Mengurangi limbah industri dan plastik melalui kampanye kesadaran lingkungan.">
+          <img class="active" src="Deforestasi.png" alt="Deforestation" data-image="Deforestasi.png" data-title="Deforestasi" data-description data-prevention-image data-prevention-title data-prevention-description>
+          <img src="perburuan-liar.png" alt="Wildlife Conservation" data-image="perburuan-liar.png" data-title="Perburuan Liar" data-description data-prevention-image data-prevention-title>
+          <img src="Pencemaran.png" alt="Pollution Prevention" data-image="Pencemaran.png" data-title>
         </div>
-        
-        
-      
+      </div>
   </main>
 
   <footer id="footer">
@@ -205,68 +180,7 @@
   </footer>
   
 
-  <script>
-    const sliderItems = document.querySelectorAll('.slider-item');
-    const dots = document.querySelectorAll('.dot');
-    let currentSlide = 0;
 
-    function showSlide(n) {
-      sliderItems.forEach(item => item.style.transform = `translateX(${-n * 100}%)`);
-      dots.forEach(dot => dot.classList.remove('active'));
-      dots[n].classList.add('active');
-    }
-
-    function nextSlide() {
-      currentSlide = (currentSlide + 1) % sliderItems.length;
-      showSlide(currentSlide);
-    }
-
-    dots.forEach((dot, index) => {
-      dot.addEventListener('click', () => showSlide(index));
-    });
-
-    setInterval(nextSlide, 5000);
-    
-   // Seleksi elemen pada ancaman dan pencegahan
-   const threatImage = document.querySelector('.threat-prevention .row div:nth-child(1) img');
-  const threatTitle = document.querySelector('.threat-prevention .row div:nth-child(1) h3');
-  const threatDescription = document.querySelector('.threat-prevention .row div:nth-child(1) p');
-
-  const preventionImage = document.querySelector('.threat-prevention .row div:nth-child(2) img');
-  const preventionTitle = document.querySelector('.threat-prevention .row div:nth-child(2) h3');
-  const preventionDescription = document.querySelector('.threat-prevention .row div:nth-child(2) p');
-
-  const additionalImages = document.querySelectorAll('.additional-images img');
-
-  additionalImages.forEach(image => {
-    image.addEventListener('click', () => {
-      // Hapus tanda aktif dari semua gambar
-      additionalImages.forEach(img => img.classList.remove('active'));
-      
-      // Tambahkan tanda aktif ke gambar yang diklik
-      image.classList.add('active');
-
-      // Ambil data untuk ancaman
-      const newImageSrc = image.getAttribute('data-image');
-      const newTitle = image.getAttribute('data-title');
-      const newDescription = image.getAttribute('data-description');
-
-      // Ambil data untuk pencegahan
-      const newPreventionImageSrc = image.getAttribute('data-prevention-image');
-      const newPreventionTitle = image.getAttribute('data-prevention-title');
-      const newPreventionDescription = image.getAttribute('data-prevention-description');
-
-      // Perbarui elemen ancaman
-      threatImage.src = newImageSrc;
-      threatTitle.textContent = newTitle;
-      threatDescription.textContent = newDescription;
-
-      // Perbarui elemen pencegahan
-      preventionImage.src = newPreventionImageSrc;
-      preventionTitle.textContent = newPreventionTitle;
-      preventionDescription.textContent = newPreventionDescription;
-    });
-  });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
