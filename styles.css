@@ -43,6 +43,7 @@ nav a {
   position: relative;
   height: 500px;
   overflow: hidden;
+  box-shadow:inset -1px 1px 4px rgba(48, 60, 27, 1);
 }
 
 .banner-slider {
@@ -55,7 +56,6 @@ nav a {
 .slider-item {
     flex: 1;
     height: 100%;
-    box-shadow:inset -1px 1px 4px rgba(48, 60, 27, 1);
 }
 
 .slider-item img {
@@ -184,6 +184,7 @@ transition: opacity 0.3s ease-in-out;
 
 .island:hover .synopsis,
 .island:hover .learn-more {
+ 
 color: #F6FCDF;
 opacity: 1; 
 pointer-events: auto; 
@@ -194,7 +195,7 @@ pointer-events: auto;
 height: auto; 
 background-color: rgba(0, 0, 0, 0.8); 
 padding: 20px;
-width: 30rem;
+width: 20rem;
 }
 
 .island:hover h2 {
@@ -270,6 +271,77 @@ margin-top: 40px;
 .additional-images img:hover {
 transform: scale(1.05);
 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.fauna {
+  padding: 50px;
+  background-color: #1A1A19;
+  color: #F6FCDF;
+  box-shadow: inset 0px -5px 0px 0px rgba(49, 81, 30, 1);
+}
+
+.row {
+  display: flex;
+  gap: 50px;
+}
+
+.fauna .row > div img {
+  width: 27rem;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.fauna-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.fauna-details {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.island {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 6px 4px rgba(133, 159, 61, 1);
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  color: #F6FCDF;
+  transition: height 0.3s ease-in-out;
+}
+
+.recommendation-images {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+  
+  .recommendation-images img {
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: border 0.3s ease;
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+h3, h4 {
+  color: #F6FCDF;
 }
 
 footer {
