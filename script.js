@@ -174,6 +174,174 @@ const data = {
     }
 ]
     },
+    "pulau4": {
+        "nama": "Kepulauan Nusa Tenggara",
+    "fauna": [
+    {
+        "nama": "Komodo",
+        "img": "Komodo.jpg",
+        "status": "Rentan",
+        "deskripsi": "Komodo (*Varanus komodoensis*) adalah kadal terbesar di dunia yang hanya ditemukan di beberapa pulau di Indonesia, termasuk Pulau Komodo, Rinca, Flores, dan Gili Motang. Komodo dikenal sebagai predator puncak dengan gigitan yang mematikan karena mengandung bakteri dan bisa ringan yang mempercepat kematian mangsa. Hewan ini memiliki peran penting dalam ekosistem sebagai pengendali populasi mangsa seperti rusa dan babi hutan.",
+        "ciri_fisik": [
+            "Panjang tubuh: 2–3 meter (termasuk ekor).",
+            "Berat tubuh: 70–90 kg untuk jantan dewasa, 50–70 kg untuk betina.",
+            "Ciri khusus: Memiliki lidah bercabang yang digunakan untuk mendeteksi bau mangsa.",
+            "Warna kulit: Berwarna abu-abu gelap, coklat, atau hijau zaitun, dengan kulit kasar yang bertekstur seperti sisik."
+        ],
+        "fakta_unik": [
+            "Komodo adalah reptil terbesar di dunia dan dapat memangsa hewan yang jauh lebih besar dari tubuhnya.",
+            "Mereka memiliki kemampuan berburu yang sangat baik, bahkan bisa mendeteksi bau bangkai sejauh 4 km.",
+            "Komodo adalah pelari cepat, mampu berlari hingga 20 km/jam dalam waktu singkat."
+        ]
+    },
+    {
+        "nama": "Rusa Timor",
+        "img": "Rusa-Timor.jpg",
+        "status": "Rentan",
+        "deskripsi": "Rusa Timor (*Rusa timorensis*) adalah spesies rusa yang berasal dari Pulau Timor, tetapi juga ditemukan di beberapa wilayah lain di Indonesia, termasuk Nusa Tenggara dan Jawa. Mereka dikenal dengan tubuh yang ramping dan tanduk bercabang yang dimiliki oleh rusa jantan. Hewan ini biasanya hidup di padang rumput atau hutan terbuka, dan sangat bergantung pada vegetasi untuk makanan.",
+        "ciri_fisik": [
+            "Panjang tubuh: 1,3–1,7 meter.",
+            "Berat tubuh: 40–70 kg.",
+            "Ciri khusus: Rusa jantan memiliki tanduk bercabang dengan panjang hingga 30 cm, sedangkan betina tidak bertanduk.",
+            "Warna bulu: Coklat kemerahan pada musim panas dan berubah menjadi abu-abu kecoklatan pada musim dingin."
+        ],
+        "fakta_unik": [
+            "Rusa Timor adalah salah satu makanan utama komodo di Pulau Komodo.",
+            "Betina biasanya melahirkan satu anak setelah masa kehamilan sekitar 7 bulan.",
+            "Rusa ini adalah hewan yang sangat waspada, mampu mendeteksi ancaman dari jarak jauh."
+        ]
+    },
+    {
+        "nama": "Burung Madu Lombok",
+        "img": "Burung-Madu-Lombok.jpg",
+        "status": "Hampir Terancam",
+        "deskripsi": "Burung Madu Lombok (*Cinnyris lombokius*) adalah burung kecil yang endemik di Pulau Lombok, Nusa Tenggara Barat. Burung ini dikenal dengan warnanya yang cerah dan kemampuan menghisap nektar bunga, menjadikannya salah satu penyerbuk penting dalam ekosistem. Burung Madu Lombok biasanya ditemukan di hutan terbuka, taman, dan kebun, serta sangat aktif pada pagi hingga siang hari.",
+        "ciri_fisik": [
+            "Panjang tubuh: 10–12 cm.",
+            "Berat tubuh: 5–10 gram.",
+            "Ciri khusus: Paruh melengkung panjang yang digunakan untuk menghisap nektar dari bunga.",
+            "Warna bulu: Jantan memiliki bulu berwarna hijau metalik dengan dada kuning cerah, sedangkan betina berwarna coklat keabu-abuan yang lebih kusam."
+        ],
+        "fakta_unik": [
+            "Burung Madu Lombok memiliki metabolisme tinggi, sehingga harus makan secara terus-menerus.",
+            "Burung ini memainkan peran penting sebagai penyerbuk dalam ekosistem di Pulau Lombok.",
+            "Mereka memiliki suara kicauan melengking yang khas, sering digunakan untuk berkomunikasi dan menarik pasangan."
+        ]
+    }
+    ]
+    },
+    "pulau5": {
+        "nama": "Pulau Sulawesi",
+        "fauna": [
+            {
+        "nama": "Anoa",
+        "img": "Anoa.jpeg",
+        "status": "Terancam Punah",
+        "deskripsi": "Anoa (*Bubalus depressicornis*) adalah kerbau kecil endemik Sulawesi yang sering disebut sebagai 'kerbau kerdil'. Anoa terbagi menjadi dua jenis utama, yaitu Anoa Dataran Rendah dan Anoa Pegunungan. Hewan ini lebih suka hidup di hutan tropis yang lebat dan memiliki kebiasaan hidup soliter atau dalam kelompok kecil. Populasinya semakin menurun akibat perburuan liar dan kehilangan habitat.",
+        "ciri_fisik": [
+            "Panjang tubuh: 120–150 cm.",
+            "Berat tubuh: 150–300 kg.",
+            "Ciri khusus: Memiliki tanduk pendek melengkung ke belakang, digunakan untuk bertahan dari predator.",
+            "Warna kulit: Hitam atau coklat gelap dengan rambut pendek dan kasar."
+        ],
+        "fakta_unik": [
+            "Anoa adalah spesies kerbau terkecil di dunia.",
+            "Mereka sering mandi di lumpur atau air untuk menjaga suhu tubuh.",
+            "Anoa sering dibandingkan dengan kerbau Afrika meskipun ukurannya jauh lebih kecil."
+        ]
+    },
+    {
+        "nama": "Tarsius",
+        "img": "Tarsius.jpeg",
+        "status": "Rentan",
+        "deskripsi": "Tarsius (*Tarsius tarsier*) adalah primata kecil endemik Sulawesi yang dikenal dengan mata besar yang luar biasa. Hewan ini adalah hewan nokturnal yang aktif pada malam hari untuk berburu serangga. Tarsius sangat bergantung pada hutan lebat untuk perlindungan dan makanan, tetapi habitatnya semakin menyusut akibat deforestasi. Mereka memiliki kemampuan melompat yang luar biasa untuk ukuran tubuhnya yang kecil.",
+        "ciri_fisik": [
+            "Panjang tubuh: 10–15 cm (tidak termasuk ekor).",
+            "Berat tubuh: 80–160 gram.",
+            "Ciri khusus: Mata sangat besar, yang memungkinkan penglihatan tajam pada malam hari.",
+            "Warna bulu: Coklat keabu-abuan, dengan ekor panjang yang tidak berbulu."
+        ],
+        "fakta_unik": [
+            "Mata tarsius memiliki ukuran yang lebih besar dibandingkan otaknya.",
+            "Hewan ini dapat memutar kepalanya hampir 180 derajat untuk mengamati lingkungan.",
+            "Tarsius hanya makan daging, seperti serangga kecil, reptil, atau burung."
+        ]
+    },
+    {
+        "nama": "Yaki",
+        "img": "Yaki.jpeg",
+        "status": "Terancam Punah",
+        "deskripsi": "Yaki (*Macaca nigra*), juga dikenal sebagai monyet hitam Sulawesi, adalah primata endemik Sulawesi Utara. Hewan ini memiliki ciri khas wajah hitam legam dan jambul di atas kepala. Yaki hidup dalam kelompok sosial besar dan biasanya aktif di siang hari. Sayangnya, populasi Yaki terus menurun akibat perburuan liar dan perusakan habitat.",
+        "ciri_fisik": [
+            "Panjang tubuh: 50–60 cm.",
+            "Berat tubuh: 5–10 kg untuk betina, 10–15 kg untuk jantan.",
+            "Ciri khusus: Memiliki wajah hitam legam tanpa rambut, dengan jambul mencolok di kepala.",
+            "Warna bulu: Hitam pekat di seluruh tubuh."
+        ],
+        "fakta_unik": [
+            "Yaki terkenal dengan ekspresi wajahnya yang terlihat 'tersenyum'.",
+            "Mereka memiliki hierarki sosial yang kompleks dalam kelompoknya.",
+            "Yaki sering menjadi korban perburuan untuk konsumsi daging di beberapa daerah Sulawesi."
+        ]
+    }
+    ]
+    },
+    "pulau6": {
+        "nama": "Pulau Kalimantan",
+        "fauna": [
+    {
+        "nama": "Orangutan Kalimantan",
+        "img": "Orangutan-Kalimantan.jpeg",
+        "status": "Terancam Punah",
+        "deskripsi": "Orangutan Kalimantan (*Pongo pygmaeus*) adalah spesies primata besar yang hanya ditemukan di Pulau Kalimantan. Mereka terkenal dengan kecerdasannya, sering menggunakan alat sederhana untuk memudahkan kehidupan sehari-hari, seperti mengambil makanan atau membangun sarang. Orangutan Kalimantan hidup di hutan hujan tropis yang kini semakin terancam akibat deforestasi dan perburuan liar.",
+        "ciri_fisik": [
+            "Panjang tubuh: 1,2–1,5 meter.",
+            "Berat tubuh: 50–100 kg untuk jantan, 30–50 kg untuk betina.",
+            "Ciri khusus: Jantan dewasa memiliki bantalan pipi besar (*flange*) yang membuat wajah mereka tampak lebih lebar.",
+            "Warna bulu: Merah kecoklatan dengan tekstur panjang dan lebat."
+        ],
+        "fakta_unik": [
+            "Orangutan Kalimantan memiliki lengan panjang yang bisa mencapai dua kali panjang tubuhnya.",
+            "Hewan ini berbagi 97% DNA dengan manusia.",
+            "Mereka adalah satwa soliter, biasanya hanya berinteraksi saat kawin atau antara induk dan anak."
+        ]
+    },
+    {
+        "nama": "Bekantan",
+        "img": "Bekantan.jpeg",
+        "status": "Terancam Punah",
+        "deskripsi": "Bekantan (*Nasalis larvatus*) adalah monyet berhidung panjang yang hanya ditemukan di hutan bakau, rawa, dan hutan tropis Kalimantan. Hidung besar mereka, terutama pada jantan, digunakan untuk menarik perhatian betina dan memperkuat suara. Bekantan sering disebut sebagai 'kera Belanda' karena hidung besar dan tubuh mereka yang tegak.",
+        "ciri_fisik": [
+            "Panjang tubuh: 55–75 cm (tidak termasuk ekor sepanjang 60–80 cm).",
+            "Berat tubuh: 15–24 kg untuk jantan, 7–12 kg untuk betina.",
+            "Ciri khusus: Hidung besar pada jantan, wajah kemerahan, dan perut yang tampak membulat.",
+            "Warna bulu: Coklat kekuningan dengan bagian belakang lebih gelap."
+        ],
+        "fakta_unik": [
+            "Bekantan adalah perenang ulung yang mampu menyelam hingga 20 meter.",
+            "Mereka memiliki perut khusus untuk mencerna daun dan biji keras.",
+            "Hewan ini hidup berkelompok yang terdiri dari satu jantan dominan dan beberapa betina serta anak-anaknya."
+        ]
+    },
+    {
+        "nama": "Ikan Pesut Mahakam",
+        "img": "Ikan-Pesut-Mahakam.jpeg",
+        "status": "Kritis",
+        "deskripsi": "Ikan Pesut Mahakam (*Orcaella brevirostris*) adalah lumba-lumba air tawar yang hidup di Sungai Mahakam, Kalimantan Timur. Pesut ini menjadi simbol konservasi sungai karena habitatnya yang sangat terbatas dan populasinya yang terus menurun akibat aktivitas manusia, seperti penangkapan ikan dengan alat berbahaya dan pencemaran air.",
+        "ciri_fisik": [
+            "Panjang tubuh: 2–2,7 meter.",
+            "Berat tubuh: 90–130 kg.",
+            "Ciri khusus: Kepala bulat tanpa moncong yang menonjol, sirip punggung kecil, dan tubuh yang kekar.",
+            "Warna kulit: Abu-abu gelap di bagian punggung dan lebih terang di bagian bawah."
+        ],
+        "fakta_unik": [
+            "Pesut Mahakam adalah salah satu dari sedikit lumba-lumba yang hidup di air tawar.",
+            "Mereka menggunakan ekolokasi untuk berburu ikan di air keruh.",
+            "Populasi Pesut Mahakam diperkirakan kurang dari 100 individu di alam liar."
+        ]
+    }
+    ]
+    },
     "ancaman": [
         {
             "ancaman": "Deforestasi",
@@ -329,38 +497,3 @@ window.addEventListener('load', () => {
     additionalImages[0].classList.add('active');
     updateFaunaDetails(0);
 });
-
-
-// Threat and Prevention Functionality
-const threatImage = document.querySelector('#threat-img');
-const threatTitle = document.querySelector('#threat-title');
-const threatDescription = document.querySelector('#threat-description');
-const preventionImage = document.querySelector('#prevention-img');
-const preventionTitle = document.querySelector('#prevention-title');
-const preventionDescription = document.querySelector('#prevention-description');
-
-// Function to update threat and prevention content
-function updateContent(ancamanData) {
-    threatImage.src = ancamanData.img;
-    threatTitle.textContent = ancamanData.ancaman;
-    threatDescription.textContent = ancamanData.deskripsi;
-    
-    preventionImage.src = ancamanData.pencegahan.img;
-    preventionTitle.textContent = ancamanData.pencegahan.judul;
-    preventionDescription.textContent = ancamanData.pencegahan.deskripsi;
-}
-
-  
-  // Event listener untuk setiap gambar tambahan
-  additionalImages.forEach((image, index) => {
-    image.addEventListener('click', () => {
-      // Hapus tanda aktif dari semua gambar
-      additionalImages.forEach(img => img.classList.remove('active'));
-      
-      // Tambahkan tanda aktif ke gambar yang diklik
-      image.classList.add('active');
-      
-      // Perbarui konten berdasarkan data ancaman yang dipilih
-      updateContent(data.ancaman[index]);
-    });
-  });

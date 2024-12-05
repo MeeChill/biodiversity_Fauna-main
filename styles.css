@@ -273,6 +273,35 @@ transform: scale(1.05);
 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
+.thumbnail-images {
+display: flex;
+justify-content: space-around;
+margin-top: 40px;
+}
+
+.thumbnail-images img {
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.thumbnail-images img.active {
+    border: 2px solid #a8d080; 
+    border-radius: 5px;        
+}
+  
+
+.thumbnail-images img:hover {
+transform: scale(1.05);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
 .fauna {
   padding: 50px;
   background-color: #1A1A19;
